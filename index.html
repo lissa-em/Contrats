@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Upload your png</h1>
+    <h2>Click on the two points of the image you want to check contrast</h2>
+    <input type="file" id="image_input" accept="image/png, image/jpeg" />
+    <div id="display_image"> </div>
+    <p>First Click Colour: <span id="color1"></span></p>
+    <p>First Click Colour as Greyscale: <span id="grey1"></span></p>
+    <p>Second Click Colour: <span id="color2"></span></p>
+    <p>Second Click Colour as Greyscale: <span id="grey2"></span></p>
+    <p>Contrast: <span id="difference"></span></p>
+    <script src="sketch.js"></script>
+
+  </body>
+</html>
